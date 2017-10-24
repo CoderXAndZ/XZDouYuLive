@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		842948391F9EC6AD001667A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842948381F9EC6AD001667A0 /* AppDelegate.swift */; };
-		8429483B1F9EC6AD001667A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429483A1F9EC6AD001667A0 /* ViewController.swift */; };
 		8429483E1F9EC6AD001667A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8429483C1F9EC6AD001667A0 /* Main.storyboard */; };
 		842948401F9EC6AD001667A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8429483F1F9EC6AD001667A0 /* Assets.xcassets */; };
-		842948431F9EC6AD001667A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842948411F9EC6AD001667A0 /* LaunchScreen.storyboard */; };
 		8429484E1F9EC6AD001667A0 /* XZDouYuLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429484D1F9EC6AD001667A0 /* XZDouYuLiveTests.swift */; };
+		842948701F9ECBD4001667A0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8429486F1F9ECBD4001667A0 /* Home.storyboard */; };
+		842948711F9ECBD4001667A0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8429486F1F9ECBD4001667A0 /* Home.storyboard */; };
+		842948731F9ECC12001667A0 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842948721F9ECC12001667A0 /* Follow.storyboard */; };
+		842948741F9ECC12001667A0 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842948721F9ECC12001667A0 /* Follow.storyboard */; };
+		842948761F9ECC3F001667A0 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842948751F9ECC3F001667A0 /* Live.storyboard */; };
+		842948771F9ECC3F001667A0 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842948751F9ECC3F001667A0 /* Live.storyboard */; };
+		842948791F9ECC5F001667A0 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842948781F9ECC5F001667A0 /* Profile.storyboard */; };
+		8429487A1F9ECC5F001667A0 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842948781F9ECC5F001667A0 /* Profile.storyboard */; };
+		8429487F1F9F0B2D001667A0 /* XZMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429487E1F9F0B2D001667A0 /* XZMainTabBarController.swift */; };
+		842948801F9F0B2D001667A0 /* XZMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429487E1F9F0B2D001667A0 /* XZMainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +36,17 @@
 /* Begin PBXFileReference section */
 		842948351F9EC6AC001667A0 /* XZDouYuLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZDouYuLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842948381F9EC6AD001667A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8429483A1F9EC6AD001667A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8429483D1F9EC6AD001667A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8429483F1F9EC6AD001667A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		842948421F9EC6AD001667A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842948441F9EC6AD001667A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842948491F9EC6AD001667A0 /* XZDouYuLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZDouYuLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8429484D1F9EC6AD001667A0 /* XZDouYuLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZDouYuLiveTests.swift; sourceTree = "<group>"; };
 		8429484F1F9EC6AD001667A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8429486F1F9ECBD4001667A0 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		842948721F9ECC12001667A0 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		842948751F9ECC3F001667A0 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		842948781F9ECC5F001667A0 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		8429487E1F9F0B2D001667A0 /* XZMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZMainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +88,9 @@
 		842948371F9EC6AC001667A0 /* XZDouYuLive */ = {
 			isa = PBXGroup;
 			children = (
+				842948681F9ECA85001667A0 /* Classes */,
 				842948381F9EC6AD001667A0 /* AppDelegate.swift */,
-				8429483A1F9EC6AD001667A0 /* ViewController.swift */,
-				8429483C1F9EC6AD001667A0 /* Main.storyboard */,
 				8429483F1F9EC6AD001667A0 /* Assets.xcassets */,
-				842948411F9EC6AD001667A0 /* LaunchScreen.storyboard */,
 				842948441F9EC6AD001667A0 /* Info.plist */,
 			);
 			path = XZDouYuLive;
@@ -94,6 +103,67 @@
 				8429484F1F9EC6AD001667A0 /* Info.plist */,
 			);
 			path = XZDouYuLiveTests;
+			sourceTree = "<group>";
+		};
+		842948681F9ECA85001667A0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				842948691F9ECA85001667A0 /* Follow */,
+				8429486A1F9ECA85001667A0 /* Home */,
+				8429486B1F9ECA85001667A0 /* Live */,
+				8429486C1F9ECA85001667A0 /* Main */,
+				8429486D1F9ECA85001667A0 /* Profile */,
+				8429486E1F9ECA85001667A0 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		842948691F9ECA85001667A0 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				842948721F9ECC12001667A0 /* Follow.storyboard */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		8429486A1F9ECA85001667A0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8429486F1F9ECBD4001667A0 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8429486B1F9ECA85001667A0 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				842948751F9ECC3F001667A0 /* Live.storyboard */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		8429486C1F9ECA85001667A0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8429483C1F9EC6AD001667A0 /* Main.storyboard */,
+				8429487E1F9F0B2D001667A0 /* XZMainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8429486D1F9ECA85001667A0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				842948781F9ECC5F001667A0 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8429486E1F9ECA85001667A0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +210,7 @@
 		8429482D1F9EC6AC001667A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XZ;
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = RongTuoJinRong;
@@ -179,9 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842948431F9EC6AD001667A0 /* LaunchScreen.storyboard in Resources */,
+				842948731F9ECC12001667A0 /* Follow.storyboard in Resources */,
+				842948761F9ECC3F001667A0 /* Live.storyboard in Resources */,
 				842948401F9EC6AD001667A0 /* Assets.xcassets in Resources */,
 				8429483E1F9EC6AD001667A0 /* Main.storyboard in Resources */,
+				842948791F9ECC5F001667A0 /* Profile.storyboard in Resources */,
+				842948701F9ECBD4001667A0 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +263,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842948711F9ECBD4001667A0 /* Home.storyboard in Resources */,
+				842948741F9ECC12001667A0 /* Follow.storyboard in Resources */,
+				8429487A1F9ECC5F001667A0 /* Profile.storyboard in Resources */,
+				842948771F9ECC3F001667A0 /* Live.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8429483B1F9EC6AD001667A0 /* ViewController.swift in Sources */,
+				8429487F1F9F0B2D001667A0 /* XZMainTabBarController.swift in Sources */,
 				842948391F9EC6AD001667A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842948801F9F0B2D001667A0 /* XZMainTabBarController.swift in Sources */,
 				8429484E1F9EC6AD001667A0 /* XZDouYuLiveTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,14 +308,6 @@
 				8429483D1F9EC6AD001667A0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		842948411F9EC6AD001667A0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				842948421F9EC6AD001667A0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -353,9 +424,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4ZY3DZS4W;
 				INFOPLIST_FILE = XZDouYuLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rongtuojinrong.XZDouYuLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,9 +441,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4ZY3DZS4W;
 				INFOPLIST_FILE = XZDouYuLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rongtuojinrong.XZDouYuLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
