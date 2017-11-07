@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34853C861FB0A23400FA8754 /* XZHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34853C851FB0A23400FA8754 /* XZHomeController.swift */; };
+		34853C871FB0A23400FA8754 /* XZHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34853C851FB0A23400FA8754 /* XZHomeController.swift */; };
 		842948391F9EC6AD001667A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842948381F9EC6AD001667A0 /* AppDelegate.swift */; };
 		8429483E1F9EC6AD001667A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8429483C1F9EC6AD001667A0 /* Main.storyboard */; };
 		842948401F9EC6AD001667A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8429483F1F9EC6AD001667A0 /* Assets.xcassets */; };
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34853C851FB0A23400FA8754 /* XZHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZHomeController.swift; sourceTree = "<group>"; };
 		842948351F9EC6AC001667A0 /* XZDouYuLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZDouYuLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842948381F9EC6AD001667A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8429483D1F9EC6AD001667A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +70,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34853C7F1FB0A16500FA8754 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8429486F1F9ECBD4001667A0 /* Home.storyboard */,
+				34853C851FB0A23400FA8754 /* XZHomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34853C801FB0A17B00FA8754 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34853C811FB0A18200FA8754 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34853C821FB0A19C00FA8754 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8429483C1F9EC6AD001667A0 /* Main.storyboard */,
+				8429487E1F9F0B2D001667A0 /* XZMainTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34853C831FB0A1A600FA8754 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34853C841FB0A1AC00FA8754 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8429482C1F9EC6AC001667A0 = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +178,9 @@
 		8429486A1F9ECA85001667A0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8429486F1F9ECBD4001667A0 /* Home.storyboard */,
+				34853C801FB0A17B00FA8754 /* View */,
+				34853C811FB0A18200FA8754 /* Model */,
+				34853C7F1FB0A16500FA8754 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -145,8 +196,9 @@
 		8429486C1F9ECA85001667A0 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				8429483C1F9EC6AD001667A0 /* Main.storyboard */,
-				8429487E1F9F0B2D001667A0 /* XZMainTabBarController.swift */,
+				34853C841FB0A1AC00FA8754 /* Model */,
+				34853C831FB0A1A600FA8754 /* View */,
+				34853C821FB0A19C00FA8754 /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -277,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34853C861FB0A23400FA8754 /* XZHomeController.swift in Sources */,
 				8429487F1F9F0B2D001667A0 /* XZMainTabBarController.swift in Sources */,
 				842948391F9EC6AD001667A0 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34853C871FB0A23400FA8754 /* XZHomeController.swift in Sources */,
 				842948801F9F0B2D001667A0 /* XZMainTabBarController.swift in Sources */,
 				8429484E1F9EC6AD001667A0 /* XZDouYuLiveTests.swift in Sources */,
 			);
