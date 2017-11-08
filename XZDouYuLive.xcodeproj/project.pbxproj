@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342DECE21FB3439100EBB07E /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DECE11FB3439100EBB07E /* UIBarButtonItem-Extension.swift */; };
+		342DECE31FB3439100EBB07E /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DECE11FB3439100EBB07E /* UIBarButtonItem-Extension.swift */; };
 		34853C861FB0A23400FA8754 /* XZHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34853C851FB0A23400FA8754 /* XZHomeController.swift */; };
 		34853C871FB0A23400FA8754 /* XZHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34853C851FB0A23400FA8754 /* XZHomeController.swift */; };
 		842948391F9EC6AD001667A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842948381F9EC6AD001667A0 /* AppDelegate.swift */; };
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		342DECE11FB3439100EBB07E /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		34853C851FB0A23400FA8754 /* XZHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZHomeController.swift; sourceTree = "<group>"; };
 		842948351F9EC6AC001667A0 /* XZDouYuLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZDouYuLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842948381F9EC6AD001667A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		342DECE01FB3435600EBB07E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				342DECE11FB3439100EBB07E /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		342DECE41FB348D400EBB07E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				342DECE01FB3435600EBB07E /* Extension */,
+			);
+			name = Tools;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		34853C7F1FB0A16500FA8754 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +182,7 @@
 				8429486B1F9ECA85001667A0 /* Live */,
 				8429486C1F9ECA85001667A0 /* Main */,
 				8429486D1F9ECA85001667A0 /* Profile */,
-				8429486E1F9ECA85001667A0 /* Tools */,
+				342DECE41FB348D400EBB07E /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -209,13 +229,6 @@
 				842948781F9ECC5F001667A0 /* Profile.storyboard */,
 			);
 			path = Profile;
-			sourceTree = "<group>";
-		};
-		8429486E1F9ECA85001667A0 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +344,7 @@
 			files = (
 				34853C861FB0A23400FA8754 /* XZHomeController.swift in Sources */,
 				8429487F1F9F0B2D001667A0 /* XZMainTabBarController.swift in Sources */,
+				342DECE21FB3439100EBB07E /* UIBarButtonItem-Extension.swift in Sources */,
 				842948391F9EC6AD001667A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +355,7 @@
 			files = (
 				34853C871FB0A23400FA8754 /* XZHomeController.swift in Sources */,
 				842948801F9F0B2D001667A0 /* XZMainTabBarController.swift in Sources */,
+				342DECE31FB3439100EBB07E /* UIBarButtonItem-Extension.swift in Sources */,
 				8429484E1F9EC6AD001667A0 /* XZDouYuLiveTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
